@@ -6,7 +6,12 @@ $(document).ready(function(){
       cache:false,
       success:function(data){
         var Input = $('#Input').val();
-        $('#Output').html(data[Input.toLowerCase()]);
+        var DataOutput = data[Input.toLowerCase()];
+        if(typepf(DataOutput) == "object"){
+          $('#Output').html(DataOutput[0]);
+        }else{
+          $('#Output').html(DataOutput);
+        }
       }
     })
   });
