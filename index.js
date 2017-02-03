@@ -1,6 +1,7 @@
 var Input = document.getElementById("Input");
 var Output = document.getElementById("Output");
-$('#sendData').click(function(){
+$("#sendData").click(function(){
+  alert("test");
   $.ajax({
     url:"Trans.json",
     dataType:'json',
