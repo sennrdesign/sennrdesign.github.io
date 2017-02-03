@@ -7,7 +7,8 @@ $('#sendData').click(function(){
     type:'get',
     cache:false,
     success:function(data){
-      var $object = $(data);
+      var $object =  $(data);
+      alert($object);
     }
   });
 });
