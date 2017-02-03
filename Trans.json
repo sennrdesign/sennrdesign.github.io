@@ -1,4 +1,5 @@
 {
-  "hallo":"Gutentag",
-  "tot ziens":"Auf Wiedersehen"
+  "hallo":"Hallo",
+  "tot ziens":"Auf Wiedersehen",
+  "goedendag":["Guten Tag", "Totschlaeger"]
 }
