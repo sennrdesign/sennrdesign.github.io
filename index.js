@@ -1,6 +1,5 @@
 $(document).ready(function(){
   $("#sendData").click(function(){
-    alert("button clicked");
     $.ajax({
       url:'Trans.json',
       dataType:'json',
