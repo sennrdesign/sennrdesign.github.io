@@ -7,7 +7,7 @@ $(document).ready(function(){
       success:function(data){
         var Input = $('#Input').val();
         var DataOutput = data[Input.toLowerCase()];
-        if(typepf(DataOutput) == "object"){
+        if(typeof(DataOutput) == "object"){
           $('#Output').html(DataOutput[0]);
         }else{
           $('#Output').html(DataOutput);
