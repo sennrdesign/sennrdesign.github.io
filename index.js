@@ -12,5 +12,5 @@ $("button").click(function(){
       var $object =  $(data);
       alert($object);
     }
-  }); 
+  });
 });
