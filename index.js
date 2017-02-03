@@ -1,5 +1,6 @@
 var Input = document.getElementById("Input");
 var Output = document.getElementById("Output");
+alert("Works");
 $("button").click(function(){
   alert("test");
   $.ajax({
@@ -11,5 +12,5 @@ $("button").click(function(){
       var $object =  $(data);
       alert($object);
     }
-  });
+  }); 
 });
