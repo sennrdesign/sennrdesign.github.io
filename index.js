@@ -6,7 +6,7 @@ $(document).ready(function(){
       cache:false,
       success:function(data){
         var Input = $('#Input').val();
-        $('#Output').html(data[Input.toLowerCase]);
+        $('#Output').html(data[Input.toLowerCase()]);
       }
     })
   });
