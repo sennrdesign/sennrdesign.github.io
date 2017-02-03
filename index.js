@@ -6,7 +6,7 @@ $(document).ready(function(){
       dataType:'json',
       cache:false,
       success:function(data){
-        $('#Output').html(data[$('#Input').value]);
+        $('#Output').html(data[$('#Input').val()]);
       }
     })
   });
