@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  document.getElementById("Input").addEventListener("input", function(){
+  $("Input").on("input", function(){
     SetTranslator();
   });
   $("#sendData").click(function(){
@@ -8,7 +8,6 @@ $(document).ready(function(){
 });
 
 function SetTranslator(){
-  $("#sendData").click(function(){
     $('#AllTrans').html('');
     $('#Output').html('');
     $.ajax({
@@ -33,5 +32,4 @@ function SetTranslator(){
         });
       }
     });
-});
 }
