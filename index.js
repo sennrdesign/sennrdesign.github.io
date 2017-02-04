@@ -4,7 +4,7 @@ $(document).ready(function(){
   });
   $("#Input").oninput = function(){
     SetTranslator();
-  });
+  }
 });
 
 function SetTranslator(){
