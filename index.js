@@ -12,7 +12,7 @@ $(document).ready(function(){
         }else{
           $('#Output').html(DataOutput);
         }
-        $('#Output').clicked(function(){
+        $('#Output').click(function(){
           alert("output clicked!");
         });
       }
