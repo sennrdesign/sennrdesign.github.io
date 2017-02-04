@@ -1,4 +1,7 @@
 $(document).ready(function(){
+  document.getElementById("#Input").addEventListener("input", function(){
+    SetTranslator();
+  });
   $("#sendData").click(function(){
     SetTranslator();
   });
