@@ -14,6 +14,7 @@ $(document).ready(function(){
         }
         $('#Output').click(function(){
           if(typeof(DataOutput) == "object"){
+            $('#AllTrans').html("Andere Mogelijkheden:<br/>");
             for(var i = 0;i < DataOutput.length; i++){
               $('#AllTrans').append(DataOutput[i] + "<br/>");
             }
