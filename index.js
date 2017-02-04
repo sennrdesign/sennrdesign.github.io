@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  document.getElementById("#Input").addEventListener("input", function(){
+  document.getElementById("Input").addEventListener("input", function(){
     SetTranslator();
   });
   $("#sendData").click(function(){
