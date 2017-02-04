@@ -1,5 +1,15 @@
 {
   "hallo":"Hallo",
   "tot ziens":"Auf Wiedersehen",
-  "goedendag":["Guten Tag", "Totschlaeger"]
+  "goedendag":["Guten Tag", "Totschlaeger"],
+  "_comment": "Hieronder komen de pers. vnw.",
+  "ik":"ich",
+  "jij":"du",
+  "hij":"er",
+  "zij":"sie",
+  "het":"es",
+  "wij":"wir",
+  "jullie":"ihr",
+  "ze":"sie",
+  "u":"Sie"
 }
