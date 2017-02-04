@@ -2,10 +2,11 @@ $(document).ready(function(){
   $("#sendData").click(function(){
     SetTranslator();
   });
-  $("#Input").change(function(){
+  $("#Input").on('input', function(){
     SetTranslator();
   });
 });
+
 function SetTranslator(){
   $("#sendData").click(function(){
     $('#AllTrans').html('');
