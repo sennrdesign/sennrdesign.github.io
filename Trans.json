@@ -1,4 +1,5 @@
 {
+  "_comment": "Hieronder komen de gewone woorden.",
   "hallo":"Hallo",
   "tot ziens":"Auf Wiedersehen",
   "goedendag":["Guten Tag", "Totschlaeger"],
@@ -13,5 +14,14 @@
   "wij":"wir",
   "jullie":"ihr",
   "ze":"sie",
-  "u":"Sie"
+  "u":"Sie",
+  "_comment": "Hieronder komen de bez. vnw.",
+  "mijn":["mein", "meine"],
+  "jouw":["dein", "deine"],
+  "zijn":["sein", "seine"],
+  "haar":["ihr", "ihre"],
+  "ons":["unser", "unsere"],
+  "jullie":["euer", "euere"],
+  "hun":["ihr", "ihre"],
+  "uw":["Ihr", "Ihre"]
 }
