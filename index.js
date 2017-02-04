@@ -9,12 +9,12 @@ $(document).ready(function(){
         var DataOutput = data[Input.toLowerCase()];
         if(typeof(DataOutput) == "object"){
           $('#Output').html(DataOutput[0]);
-          $('#Output').clicked(function(){
-            alert("output clicked!");
-          });
         }else{
           $('#Output').html(DataOutput);
         }
+        $('#Output').clicked(function(){
+          alert("output clicked!");
+        });
       }
     })
   });
