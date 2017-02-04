@@ -1,5 +1,7 @@
 $(document).ready(function(){
   $("#sendData").click(function(){
+    $('#AllTrans').html('');
+    $('#Output').html('');
     $.ajax({
       url:'Trans.json',
       dataType:'json',
