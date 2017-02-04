@@ -2,13 +2,13 @@
 <head>
 <title>Vertaalmachine</title>
 <script src="jquery-latest.min.js"></script>
+<script src="index.js"></script>
 </head>
 <body>
 <p>Van Duits naar Nederlands</p>
-<input type="text" placeholder="text om te vertalen..." id="Input"/>
+<input type="text" placeholder="text om te vertalen..." id="Input" oninput="SetTranslator()"/>
 <input type="button" value="Vertalen" id="sendData"/><br/>
 <p id="Output"></p>
 <p id="AllTrans"></p>
-<script src="index.js"></script>
 </body>
 </html>

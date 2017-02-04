@@ -2,9 +2,6 @@ $(document).ready(function(){
   $("#sendData").click(function(){
     SetTranslator();
   });
-  $("#Input").oninput = function(){
-    SetTranslator();
-  }
 });
 
 function SetTranslator(){
