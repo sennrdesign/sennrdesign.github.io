@@ -1,5 +1,13 @@
 $(document).ready(function(){
   $("#sendData").click(function(){
+    SetTranslator();
+  });
+  $("#Input").change(function(){
+    SetTranslator();
+  });
+});
+function SetTranslator(){
+  $("#sendData").click(function(){
     $('#AllTrans').html('');
     $('#Output').html('');
     $.ajax({
@@ -23,6 +31,5 @@ $(document).ready(function(){
           }
         });
       }
-    })
-  });
-});
+    });
+}
