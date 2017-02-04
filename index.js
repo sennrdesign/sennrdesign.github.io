@@ -2,7 +2,7 @@ $(document).ready(function(){
   $("#sendData").click(function(){
     SetTranslator();
   });
-  $("#Input").on('input', function(){
+  $("#Input").oninput = function(){
     SetTranslator();
   });
 });
