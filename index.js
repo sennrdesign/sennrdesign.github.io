@@ -13,7 +13,11 @@ $(document).ready(function(){
           $('#Output').html(DataOutput);
         }
         $('#Output').click(function(){
-          alert("output clicked!");
+          if(typeof(DataOutput) == "object"){
+            for(var i = 0;i < DataOutput.length; i++){
+              $('#AllTrans').append(DataOutput[i] + "<br/>");
+            }
+          }
         });
       }
     })
